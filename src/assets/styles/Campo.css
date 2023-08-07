@@ -1,0 +1,10 @@
+.gramado {
+    height: 100vh;
+    width: 100vw;
+    background-size: 62%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    image-rendering: auto;
+    background-image: url('../img/escalacao.jpg');
+}
