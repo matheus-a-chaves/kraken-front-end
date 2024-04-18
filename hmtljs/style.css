@@ -1,0 +1,32 @@
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #00000042;
+}
+
+.modal .tam-img {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#rotuloFormatadoModal {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #4D4E53;
+}
+
+#alertaMain {
+    margin-top: 15px;
+}
+
+#alertSucesso .close {
+    color: #28a745 !important;
+}
+
+#alertSucessoContent {
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+.bs-row {
+    margin-top: 40px;
+}

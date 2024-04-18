@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- Modal Salvar -->
+<div id="modalSalvar" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div id="modal-unclosable-text" tabindex="0" class="bs-modal__body">
+          <div class="bs-container content adjust-container bs-form__control">
+              <div class="text-center mt-30">
+                  <div>
+                      <img src="./escalacao.jpg" class="tam-img">
+                  </div>
+                  <div class="mt-20">
+                  <label>
+                      Tem certeza que deseja salvar os filtros de integração?
+                  </label>
+                  </div>
+              </div>
+              <div class="bs-form__control bs-form__control--confirmation text-center mt-20">
+                  <button id="btnCloseModal" class="bs-button bs-button--ghost bs-button--secondary" onclick="$('#modalSalvar').hide();">Voltar</button>
+                  <button id="btnSaveModal" class="bs-button bs-button--secondary ml-14" onclick="salvar();$('#modalSalvar').hide();">Salvar</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
